@@ -12,7 +12,6 @@
         "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Owner.MailingState\"]}",
         "version": -1.0
       },
-      "receiveFacet": false,
       "selectMode": "multi",
       "type": "aggregateflex",
       "useGlobal": true,

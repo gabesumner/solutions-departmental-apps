@@ -8,7 +8,6 @@
             "enableS1DesktopEnabled": true
         },
         "mobileSettings": {
-            "enableLightningOnMobile": true,
             "enableS1EncryptedStoragePref2": false
         },
         "pathAssistantSettings": {

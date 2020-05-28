@@ -93,7 +93,6 @@
         "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Status__c\"],\"filters\":[[\"Prediction_Sample__c\",[\"false\"],\"in\"]]}",
         "version": -1.0
       },
-      "receiveFacet": true,
       "selectMode": "single",
       "type": "aggregateflex",
       "useGlobal": true,
@@ -160,7 +159,6 @@
         "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Owner.MailingState\"]}",
         "version": -1.0
       },
-      "receiveFacet": true,
       "selectMode": "single",
       "type": "aggregateflex",
       "useGlobal": true,
@@ -235,7 +233,6 @@
         "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Owner.MailingState\"]}",
         "version": -1.0
       },
-      "receiveFacet": true,
       "selectMode": "single",
       "type": "aggregateflex",
       "useGlobal": true,
@@ -359,7 +356,6 @@
         "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Model__c\"]}",
         "version": -1.0
       },
-      "receiveFacet": true,
       "selectMode": "single",
       "type": "aggregateflex",
       "useGlobal": true,
