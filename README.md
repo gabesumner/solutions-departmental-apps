@@ -1,6 +1,6 @@
-# Archive Data Demo
+# Departmental Apps Solution
 
-This project is part of a series of Salesforce Platform demos.
+This demo project shows how to build departmental apps using the Salesforce Platform.
 
 From <https://www.platformdemos.com> you can:
 
@@ -19,8 +19,8 @@ ___
 2. Clone this repository:
 
 ```
-git clone https://github.com/gabesumner/departmental-apps
-cd departmental-apps
+git clone https://github.com/gabesumner/solutions-departmental-apps
+cd solutions-departmental-apps
 ```
 
 3. Install **shane-sfdx-plugins** (if you don't already have it)
