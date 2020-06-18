@@ -224,7 +224,7 @@ public with sharing class GenerateData {
         addresses.add(addAddress('658 Gibraltar Ct', 'Milpitas', 'CA', '95035', 'USA'));
         addresses.add(addAddress('4766 E Whitmore Ave', 'Ceres', 'CA', '95307', 'USA'));
 
-        Map<String, String> address = addresses[DemoController.randomInt(0, addresses.size() - 1)];
+        Map<String, String> address = addresses[randomInt(0, addresses.size() - 1)];
 
         account.BillingStreet = address.get('street');
         account.BillingCity = address.get('city');

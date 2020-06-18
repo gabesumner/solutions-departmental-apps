@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Home_Page_Default</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
     <brand>
         <headerColor>#E1BE5C</headerColor>
         <logo>shipping</logo>
         <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
-    <description>Manage the transportation and delivery of customers&#39; vehicles.</description>
+    <description>Manage the transportation and delivery of customers&apos; vehicles.</description>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
@@ -21,5 +29,5 @@
     <tabs>Inspection__c</tabs>
     <tabs>Delivery__c</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>Electra_Motors_UtilityBar</utilityBar>
+    <utilityBar>Delivery_UtilityBar</utilityBar>
 </CustomApplication>

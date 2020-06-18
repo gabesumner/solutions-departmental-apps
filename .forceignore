@@ -3,9 +3,6 @@
 #
 
 package.xml
-AppSwitcher.appMenu
-force-app/main/default/objects/Vehicle__c/fields/Cancellation_Risk__c.field-meta.xml
-force-app/main/default/permissionsets/sfdcInternalInt__sfdc_aiplatform.permissionset-meta.xml
 
 # LWC configuration files
 **/jsconfig.json

@@ -1,53 +1,44 @@
-# Electron Motors - Departmental Apps Solution Webinar Demo
+# Archive Data Demo
 
-This webinar demo will help customers understand what the Salesforce Platform can do to help them digitize manual business processes into apps , mapping 1:1 with our third solution: Make Any Department More Productive
+This project is part of a series of Salesforce Platform demos.
 
-## Prerequisites
+From <https://www.platformdemos.com> you can:
 
-1. Install the SFDX CLI
+- Watch a video of this demo (3 minutes or less).
+- Spin up your own instance of the demo in a free scratch org.
+- Find related Trailhead content.
+- Get high-resolution screenshots.
 
-```
-npm install sfdx-cli --global
-```
+___
 
 ## Installation Instructions
 
-1. Clone this repository:
+1. [Create your own Dev Hub and setup SFDX](https://trailhead.salesforce.com/en/content/learn/modules/sfdx_app_dev/sfdx_app_dev_setup_dx).
+
+
+2. Clone this repository:
 
 ```
-git clone https://github.com/gabesumner/solutions-departmental-apps
-cd solutions-departmental-apps
+git clone https://github.com/gabesumner/departmental-apps
+cd departmental-apps
 ```
 
-2. Run the orgInit.sh script
+3. Install **shane-sfdx-plugins** (if you don't already have it)
+
+```
+sfdx plugins:install shane-sfdx-plugins
+```
+
+4. Install **sfdx-migration-automatic** (if you don't already have it)
+
+```
+sfdx plugins:install sfdx-migration-automatic
+```
+
+5. Run the startup script
+
 ```
 sh orgInit.sh
 ```
 
-3. In **Setup**, activate the **Electron Motors Theme**.
-
-3. Create and activate an Einstein Prediction to predict the "Cancellation Risk" score ([see video](https://drive.google.com/open?id=1SCfkYPVv2mYP9ynz1BOak1yaUc78NTXH)).
-    - Prediction Name: Predict Cancellations
-    - Object: Vehicle__c
-    - Segment: Status = Purchase
-    - Prediction Field: Cancelled
-    - Record Examples: Prediction Sample = True
-    - Fields: (All Fields)
-    - Prediction Field: Cancellation Risk
-
-4. Add the "Cancellation Risk" field to the Vehicle Page Layout.
-
-5. Click App Launcher, click Analytics Studio, click Data Manager then run the "Default Salesforce Dataflow".
-
-6. In **Setup**, go to **Lightning App Builder**, edit and activate **Home Page Default** for the entire org.
-
-7. Reorder the App Launcher icons to match the delivery pipline:
-    - Marketing
-    - Sales
-    - Finance
-    - Manufacturing
-    - Inspections
-    - Delivery
-    - Service
-    - Human Resources
-
+6. Check out the demo guide on [PlatformDemos.com](https://www.platformdemos.com) for the Departmental Apps Solutions demo.
